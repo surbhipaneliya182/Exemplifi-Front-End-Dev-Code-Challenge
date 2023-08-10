@@ -15,69 +15,6 @@
     --yellow: #ffdf1b;
 }
 /* var(--white) */
-/* @font-face {
-    font-family: 'Proxima Nova';
-    src: url('../fonts/ProximaNovaA-Thin.eot');
-    src: url('../fonts/ProximaNovaA-Thin.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ProximaNovaA-Thin.woff2') format('woff2'),
-        url('../fonts/ProximaNovaA-Thin.woff') format('woff'),
-        url('../fonts/ProximaNovaA-Thin.ttf') format('truetype'),
-        url('../fonts/ProximaNovaA-Thin.svg#ProximaNovaA-Thin') format('svg');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-} 
-@font-face {
-    font-family: 'Proxima Nova';
-    src: url('../fonts/ProximaNovaA-Light.eot');
-    src: url('../fonts/ProximaNovaA-Light.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ProximaNovaA-Light.woff2') format('woff2'),
-        url('../fonts/ProximaNovaA-Light.woff') format('woff'),
-        url('../fonts/ProximaNovaA-Light.ttf') format('truetype'),
-        url('../fonts/ProximaNovaA-Light.svg#ProximaNovaA-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Proxima Nova';
-    src: url('../fonts/ProximaNovaA-Bold.eot');
-    src: url('../fonts/ProximaNovaA-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ProximaNovaA-Bold.woff2') format('woff2'),
-        url('../fonts/ProximaNovaA-Bold.woff') format('woff'),
-        url('../fonts/ProximaNovaA-Bold.ttf') format('truetype'),
-        url('../fonts/ProximaNovaA-Bold.svg#ProximaNovaA-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Proxima Nova';
-    src: url('../fonts/ProximaNovaT-Thin.eot');
-    src: url('../fonts/ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ProximaNovaT-Thin.woff2') format('woff2'),
-        url('../fonts/ProximaNovaT-Thin.woff') format('woff'),
-        url('../fonts/ProximaNovaT-Thin.ttf') format('truetype'),
-        url('../fonts/ProximaNovaT-Thin.svg#ProximaNovaT-Thin') format('svg');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Proxima Nova';
-    src: url('../fonts/ProximaNova-Extrabld.eot');
-    src: url('../fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ProximaNova-Extrabld.woff2') format('woff2'),
-        url('../fonts/ProximaNova-Extrabld.woff') format('woff'),
-        url('../fonts/ProximaNova-Extrabld.ttf') format('truetype'),
-        url('../fonts/ProximaNova-Extrabld.svg#ProximaNova-Extrabld') format('svg');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-*/
 @font-face {
     font-family: 'Proxima Nova';
     src: url('../fonts/ProximaNovaT-Thin.eot');
@@ -242,6 +179,24 @@ header .search:hover .search-input{
 .navbar .nav-item.dropdown .dropdown-menu li .dropdown-item:hover{
     background-color: transparent;
 }
+.menu-open {
+    overflow: hidden;
+}
+header .social-icon {
+    position: absolute;
+    right: calc(-25% - 3rem);
+    background-image: url(../images/wave-shape.svg);
+    background-repeat: no-repeat;
+    padding: 10px 34px 30px;
+    background-size: cover;
+    background-position: bottom left;
+    top: -2px;
+    margin: 0 -10px;
+}
+header .social-icon li{
+    padding: 0 10px;
+}
+/* header css end  */
 
 /* burger menu css  */
 .navbar-toggler {
@@ -315,23 +270,8 @@ header .search:hover .search-input{
 .navbar-toggler[aria-expanded="true"]::before{
     opacity: 1;
 }
-.menu-open {
-    overflow: hidden;
-}
-header .social-icon {
-    position: absolute;
-    right: calc(-25% - 3rem);
-    background-image: url(../images/wave-shape.svg);
-    background-repeat: no-repeat;
-    padding: 10px 34px 30px;
-    background-size: cover;
-    background-position: bottom left;
-    top: -2px;
-    margin: 0 -10px;
-}
-header .social-icon li{
-    padding: 0 10px;
-}
+/* burger menu css end */
+
 
 /* hero section (tempaory css) */
 .hero{
