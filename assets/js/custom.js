@@ -17,6 +17,7 @@ function menuWidth(){
         $('.dropdown-menu').css('margin-left', '-'+spaceleft+'px');
     }   
 }
+// update dropdown menu width js end
 
 //  menu open on hover for desktop and click on for mobile js 
 document.addEventListener("DOMContentLoaded", function() {
@@ -46,3 +47,4 @@ document.addEventListener("DOMContentLoaded", function() {
         body.classList.remove('menu-open');
     });
 });
+//  menu open on hover for desktop and click on for mobile js end
